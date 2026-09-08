@@ -23,7 +23,6 @@ int main(void)
 	DIO_voidSetPinDirection(DPORTC,PIN0,OUTPUT);
 	
 	
-	/* Replace with your application code */
 	while (1)
 	{
 		DIO_voidSetPinValue(DPORTC,PIN0,HIGH);
