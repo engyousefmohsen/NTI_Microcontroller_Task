@@ -26,7 +26,6 @@ int main(void)
 	
 	DIO_voidSetPinValue(DPORTA,PIN0,HIGH);
 
-	/* Replace with your application code */
 	while (1)
 	{
 		if(DIO_u8ReadPinValue(DPORTA,PIN0)==0){
