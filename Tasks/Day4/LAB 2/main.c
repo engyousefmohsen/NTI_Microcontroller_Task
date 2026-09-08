@@ -24,7 +24,6 @@ int main(void)
 	KEYPAD_init();
 	
 	
-	/* Replace with your application code */
 	while (1)
 	{
 		
