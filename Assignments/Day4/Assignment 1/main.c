@@ -28,14 +28,14 @@ int main(void)
 	
 	u8 pressed_key;
 	
-	/* Replace with your application code */
+	
 	while (1)
 	{
 		pressed_key=KEYPAD_get();
 		
 		if(pressed_key == 'c')
 		{
-			LCD_SendCommand(0x01); // Clear
+			LCD_SendCommand(0x01); 
 			GoToXY(0,0);
 			idx=0;
 		}
