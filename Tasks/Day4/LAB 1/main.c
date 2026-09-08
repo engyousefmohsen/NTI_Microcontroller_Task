@@ -21,7 +21,6 @@ int main(void)
 	
 	LCD_init();
 	
-	/* Replace with your application code */
 	while (1)
 	{
 		LCD_SendString((u8*)"Yousef Mohsen");
